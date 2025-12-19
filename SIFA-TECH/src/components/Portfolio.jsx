@@ -12,10 +12,10 @@ const filters = [
 const projects = [
     {
         id: 1,
-        title: "Luxe Fashion Store",
+        title: "Project Name",
         category: "E-commerce Platform",
         description:
-            "Premium fashion e-commerce with AR try-on features and personalized recommendations.",
+            "a detailed description of the functionality",
         image: 
             "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=800",
         tags: ["React", "Node.js", "AR Technology"],
@@ -24,10 +24,10 @@ const projects = [
     },
     {
         id: 2,
-        title: "FinTech Dashboard",
+        title: "Project Name",
         category: "Web Application",
         description:
-            "Real-time financial analytics dashboard with advanced data visualization.",
+            "a detailed description of the functionality",
         image: 
             "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
         tags: ["Vue.js", "D3.js", "WebSocket"],
@@ -36,10 +36,10 @@ const projects = [
     },
     {
         id: 3,
-        title: "Wellness Mobile App",
+        title: "Project Name",
         category: "Mobile Development",
         description:
-            "Comprehensive wellness app with meditation, fitness tracking, and nutrition planning.",
+            "a detailed description of the functionality",
         image: 
             "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg",
         tags: ["React Native", "Health Kit", "AI"],
@@ -48,10 +48,10 @@ const projects = [
     },
     {
         id: 4,
-        title: "GreenTech Branding",
+        title: "Project Name",
         category: "Brand Identity",
         description:
-            "Complete rebrand for sustainable technology company including logo and guidlines.",
+            "a detailed description of the functionality",
         image: 
             "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
         tags: ["Brand Strategy", "Logo Design", "Guidlines"],
@@ -60,10 +60,10 @@ const projects = [
     },
     {
         id: 5,
-        title: "Restaurant Booking",
+        title: "Project Name",
         category: "Web Platform",
         description:
-            "Modern restaurant reservation system with real-time availability and reviews.",
+            "a detailed description of the functionality",
         image: 
             "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800",
         tags: ["Next.js", "Stripe", "Google Maps"],
@@ -72,10 +72,10 @@ const projects = [
     },
     {
         id: 6,
-        title: "Crypto Trading App",
+        title: "Project Name",
         category: "Mobile Application",
         description:
-            "Secure cryptocurrency trading platform with advanced charting and portfolio management.",
+            "a detailed description of the functionality",
         image: 
             "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800",
         tags: ["Flutter", "Blockchain", "Security"],

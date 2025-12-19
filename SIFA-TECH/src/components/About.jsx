@@ -152,7 +152,7 @@ function About() {
                             <div className='absolute inset-0 bg-black/10'></div>
                             <div className=' relative z-10'>
                                 <h3 className='text-2xl md:text-3xl font-bold mb-4'>
-                                    Ready o Start Your Journey?
+                                    Ready to Start Your Journey?
                                 </h3>
                                 <p className='text-purple-100 mb-6 max-w-2xl mx-auto'>
                                     Let's collaborate to bring your vision to life with innovative design and cutting-edge technology.
