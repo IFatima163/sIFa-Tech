@@ -13,7 +13,7 @@ const contactMethods = [
         icon: Phone,
         title: "Call Us",
         description: "Speak with our team",
-        details: ["+1 (555) 123-4567", "Mon-Fri 9AM-6PM EST"],
+        details: ["+60 10 202 6820", "Mon-Sun 6 AM-11 PM UTC+8"],
         color: "from-blue-500 to-cyan-500"
     },
     {
