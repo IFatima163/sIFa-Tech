@@ -16,20 +16,20 @@ const contactMethods = [
         details: ["+60 10 202 6820", "Mon-Sun 6 AM-11 PM UTC+8"],
         color: "from-blue-500 to-cyan-500"
     },
-    {
-        icon: MapPin,
-        title: "Visit Us",
-        description: "Come to our office",
-        details: ["123 Innovation Street", "San Francisco, CA 94105"],
-        color: "from-green-500 to-teal-500"
-    },
-    {
-        icon: MessageCircle,
-        title: "Live Chat",
-        description: "Chat with support",
-        details: ["Available 24/7", "Instant responses"],
-        color: "from-yellow-500 to-orange-500"
-    },
+    // {
+    //     icon: MapPin,
+    //     title: "Visit Us",
+    //     description: "Come to our office",
+    //     details: ["123 Innovation Street", "San Francisco, CA 94105"],
+    //     color: "from-green-500 to-teal-500"
+    // },
+    // {
+    //     icon: MessageCircle,
+    //     title: "Live Chat",
+    //     description: "Chat with support",
+    //     details: ["Available 24/7", "Instant responses"],
+    //     color: "from-yellow-500 to-orange-500"
+    // },
 ]
 
 function Contact() {
