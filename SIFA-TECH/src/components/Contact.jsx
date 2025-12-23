@@ -382,7 +382,7 @@ function Contact() {
             </div>
 
             {/* Newsletter */}
-            <div 
+            {/* <div 
                 className='
                     bg-gradient-to-r from-purple-600 to-pink-600 text-white relative overflow-hidden
                     backdrop-blur-sm rounded-2xl p-8 mb-12 border border-purple-500/20 mt-20
@@ -413,7 +413,7 @@ function Contact() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </section>
   )
