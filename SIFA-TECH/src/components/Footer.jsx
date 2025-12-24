@@ -209,10 +209,10 @@ function Footer() {
                                 >
                                     <MapPin size={14}/>
                                 </div>
-                                <div>
+                                {/* <div>
                                     <p className='text-white font-medium'>123 Innovation Street</p>
                                     <p className='text-gray-300 text-sm'>San Fransisco, CA 94105</p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
