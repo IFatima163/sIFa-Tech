@@ -196,7 +196,7 @@ function Footer() {
                                     <Phone size={14}/>
                                 </div>
                                 <div>
-                                    <p className='text-white font-medium'>+1(555)123-4567</p>
+                                    <p className='text-white font-medium'>+60 10 202 6820</p>
                                     <p className='text-gray-300 text-sm'>Mon-Fri 9AM-6PM EST</p>
                                 </div>
                             </div>
