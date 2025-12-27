@@ -197,7 +197,7 @@ function Footer() {
                                 </div>
                                 <div>
                                     <p className='text-white font-medium'>+60 10 202 6820</p>
-                                    <p className='text-gray-300 text-sm'>Mon-Fri 9AM-6PM EST</p>
+                                    <p className='text-gray-300 text-sm'>Mon-Fri 9AM-6PM MST</p>
                                 </div>
                             </div>
                             <div className='flex items-start space-x-3'>
