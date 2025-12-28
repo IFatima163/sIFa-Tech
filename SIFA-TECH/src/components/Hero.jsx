@@ -53,7 +53,7 @@ function Hero() {
                                 Start Your Project
                             </button>
 
-                            <button 
+                            {/* <button 
                                 className='
                                     group border-white/30 text-white hover:bg-white hover:text-purple-900 px-8 
                                     py-4 rounded-2xl font-semibold transition-all duration-300 flex items-center justify-center 
@@ -62,7 +62,7 @@ function Hero() {
                             >
                                 <Play size={20} className='mr-2 group-hover:scale-110 transition-transform duration-300'/>
                                 Watch Our Story
-                            </button>
+                            </button> */}
                         </div>
 
                         {/* Stats */}
