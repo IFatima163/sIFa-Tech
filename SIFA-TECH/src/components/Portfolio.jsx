@@ -22,66 +22,66 @@ const projects = [
         type: "ecommerce",
         stats: {views: "2.5K", likes: "180"},
     },
-    {
-        id: 2,
-        title: "Project Name",
-        category: "Web Application",
-        description:
-            "a detailed description of the functionality",
-        image: 
-            "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
-        tags: ["Vue.js", "D3.js", "WebSocket"],
-        type: "web",
-        stats: {views: "3.2K", likes: "245"},
-    },
-    {
-        id: 3,
-        title: "Project Name",
-        category: "Mobile Development",
-        description:
-            "a detailed description of the functionality",
-        image: 
-            "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg",
-        tags: ["React Native", "Health Kit", "AI"],
-        type: "mobile",
-        stats: {views: "1.8K", likes: "156"},
-    },
-    {
-        id: 4,
-        title: "Project Name",
-        category: "Brand Identity",
-        description:
-            "a detailed description of the functionality",
-        image: 
-            "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-        tags: ["Brand Strategy", "Logo Design", "Guidlines"],
-        type: "branding",
-        stats: {views: "4.1K", likes: "320"},
-    },
-    {
-        id: 5,
-        title: "Project Name",
-        category: "Web Platform",
-        description:
-            "a detailed description of the functionality",
-        image: 
-            "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800",
-        tags: ["Next.js", "Stripe", "Google Maps"],
-        type: "web",
-        stats: {views: "2.9K", likes: "198"},
-    },
-    {
-        id: 6,
-        title: "Project Name",
-        category: "Mobile Application",
-        description:
-            "a detailed description of the functionality",
-        image: 
-            "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800",
-        tags: ["Flutter", "Blockchain", "Security"],
-        type: "mobile",
-        stats: {views: "5.3K", likes: "412"},
-    },
+    // {
+    //     id: 2,
+    //     title: "Project Name",
+    //     category: "Web Application",
+    //     description:
+    //         "a detailed description of the functionality",
+    //     image: 
+    //         "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //     tags: ["Vue.js", "D3.js", "WebSocket"],
+    //     type: "web",
+    //     stats: {views: "3.2K", likes: "245"},
+    // },
+    // {
+    //     id: 3,
+    //     title: "Project Name",
+    //     category: "Mobile Development",
+    //     description:
+    //         "a detailed description of the functionality",
+    //     image: 
+    //         "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg",
+    //     tags: ["React Native", "Health Kit", "AI"],
+    //     type: "mobile",
+    //     stats: {views: "1.8K", likes: "156"},
+    // },
+    // {
+    //     id: 4,
+    //     title: "Project Name",
+    //     category: "Brand Identity",
+    //     description:
+    //         "a detailed description of the functionality",
+    //     image: 
+    //         "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //     tags: ["Brand Strategy", "Logo Design", "Guidlines"],
+    //     type: "branding",
+    //     stats: {views: "4.1K", likes: "320"},
+    // },
+    // {
+    //     id: 5,
+    //     title: "Project Name",
+    //     category: "Web Platform",
+    //     description:
+    //         "a detailed description of the functionality",
+    //     image: 
+    //         "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //     tags: ["Next.js", "Stripe", "Google Maps"],
+    //     type: "web",
+    //     stats: {views: "2.9K", likes: "198"},
+    // },
+    // {
+    //     id: 6,
+    //     title: "Project Name",
+    //     category: "Mobile Application",
+    //     description:
+    //         "a detailed description of the functionality",
+    //     image: 
+    //         "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //     tags: ["Flutter", "Blockchain", "Security"],
+    //     type: "mobile",
+    //     stats: {views: "5.3K", likes: "412"},
+    // },
 ]
 
 function Portfolio() {
