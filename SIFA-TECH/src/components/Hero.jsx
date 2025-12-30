@@ -66,7 +66,7 @@ function Hero() {
                         </div>
 
                         {/* Stats */}
-                        <div className='grid grid-cols-3 gap-6'>
+                        {/* <div className='grid grid-cols-3 gap-6'>
                             <div className='text-center'>
                                 <div className='text-3xl font-bold text-white mb-1'>200+</div>
                                 <div className='text-gray-300 text-sm'>Projects</div>
@@ -79,7 +79,7 @@ function Hero() {
                                 <div className='text-3xl font-bold text-white mb-1'>24/7</div>
                                 <div className='text-gray-300 text-sm'>Support</div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Right Side */}
