@@ -30,20 +30,20 @@ const services = [
         color: "from-blue-500 to-cyan-500",
         bgColor: "from-blue-50 to-cyan-50",
     },
-    {
-        icon: Smartphone,
-        title: "Mobile Apps",
-        description: 
-            "Native and cross-platform mobile applications for iOS and Android.",
-        features: [
-            "iOS Development",
-            "Android Development",
-            "React Native",
-            "App Store Optimization",
-        ],
-        color: "from-green-500 to-teal-500",
-        bgColor: "from-green-50 to-teal-50",
-    },
+    // {
+    //     icon: Smartphone,
+    //     title: "Mobile Apps",
+    //     description: 
+    //         "Native and cross-platform mobile applications for iOS and Android.",
+    //     features: [
+    //         "iOS Development",
+    //         "Android Development",
+    //         "React Native",
+    //         "App Store Optimization",
+    //     ],
+    //     color: "from-green-500 to-teal-500",
+    //     bgColor: "from-green-50 to-teal-50",
+    // },
     {
         icon: Megaphone,
         title: "Digital Marketing",
