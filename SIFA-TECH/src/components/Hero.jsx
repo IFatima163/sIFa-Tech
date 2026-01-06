@@ -37,8 +37,7 @@ function Hero() {
                         </h1>
                         <p className='text-xl text-gray-200 mb-8 leading-relaxed max-w-lg'>
                             {" "}
-                            We transform ideas into stunning digital realities through innovative design, 
-                            cutting-edge technology, and strategic thinking that drives results.
+                            Loren ipsum Loren ipsum Loren ipsum Loren ipsum Loren ipsum Loren ipsum Loren ipsum Loren ipsum
                         </p>
                         <div className='flex flex-col sm:flex-row gap-4 mb-8'>
                             <button 
