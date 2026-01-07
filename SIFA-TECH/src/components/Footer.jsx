@@ -70,7 +70,7 @@ function Footer() {
                         </div>
 
                         <p className='text-gray-300 mb-6 leading-relaxed'>
-                            Transforming ideas into extraordinary digital experiences through innovative design, cutting-edge technology, and strategic thinking.
+                            Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
                         </p>
                         <div className='flex space-x-4'>
                             <a

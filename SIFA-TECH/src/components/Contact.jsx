@@ -87,8 +87,7 @@ function Contact() {
                     </span>
                 </h2>
                 <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-                    Ready to transform your vision into reality? We'd love to hear about
-                    your project and discuss how we can help you achieve your goals.
+                    Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
                 </p>                    
             </div>
 

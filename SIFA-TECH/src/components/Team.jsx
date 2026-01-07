@@ -180,8 +180,7 @@ function Team() {
                         </span>
                     </h2>
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-                        Our diverse team of passionate experts combines creativity, technical excellence, and strategic
-                        thinking to deliver exceptional results for every project.
+                        Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
                     </p>                    
                 </div>
 

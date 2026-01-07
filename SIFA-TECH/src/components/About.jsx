@@ -13,28 +13,28 @@ const values = [
         icon: Target,
         title: "Strategic Vision",
         description: 
-            "We align every design decision with your business objectives and user needs.",
+            "Loren ipsum Loren ipsum Loren ipsum Loren ipsum ",
         color: "from-purple-500 to-pink-500"
     },
     {
         icon: Users,
         title: "Collaborative Spirit",
         description: 
-            "Your success is our success. We work as an extension of your team.",
+            "Loren ipsum Loren ipsum Loren ipsum Loren ipsum ",
         color: "from-blue-500 to-cyan-500"
     },
     {
         icon: Zap,
         title: "Innovation Focus",
         description: 
-            "We embrace cutting-edge technologies to deliver future-ready solutions.",
+            "Loren ipsum Loren ipsum Loren ipsum Loren ipsum ",
         color: "from-green-500 to-teal-500"
     },
     {
         icon: Award,
         title: "Quality Excellence",
         description: 
-            "Every pixel, every line of code is crafted with meticulous attention to detail.",
+            "Loren ipsum Loren ipsum Loren ipsum Loren ipsum ",
         color: "from-yellow-500 to-orange-500"
     },
 ]
@@ -65,9 +65,7 @@ function About() {
                             </span>
                         </h2>
                         <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-                            We're a passionate team of designers, developers, and strategists 
-                            dedicated to transforming your vision into extraordinary digital 
-                            experiences that captivate and convert.
+                            Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
                         </p>
                     </div>
 

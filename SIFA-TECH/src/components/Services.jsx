@@ -128,8 +128,7 @@ function Services() {
                     </h2>
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
                         {" "}
-                        From concept to launch, we provide end-to-end digital solutions that 
-                        drive growth and create meaningful connections with your audience.
+                        Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
                     </p>
                 </div>
 

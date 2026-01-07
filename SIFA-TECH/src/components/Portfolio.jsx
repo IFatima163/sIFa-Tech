@@ -127,7 +127,7 @@ function Portfolio() {
                     </h2>
 
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-                        Explore our latest work showcasing innovative solutions across various industries and digital platforms.
+                        Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
                     </p>
                 </div>
 
@@ -280,7 +280,7 @@ function Portfolio() {
                                 Like What You See?
                             </h3>
                             <p className='text-purple-100 mb-6 max-w-2xl mx-auto'>
-                                Let's create something amazing together. View our complete portfolio or start your project today.
+                                Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
                             </p>
                             <div className='flex flex-col sm:flex-row gap-4 justify-center'>
                                 <button 
