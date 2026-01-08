@@ -37,8 +37,13 @@ function Hero() {
                         </h1>
                         <p className='text-xl text-gray-200 mb-8 leading-relaxed max-w-lg'>
                             {" "}
-                            Loren ipsum Loren ipsum Loren ipsum Loren ipsum Loren ipsum Loren ipsum Loren ipsum Loren ipsum
+                            AI-Driven Web, Automation, and SaaS Solutions Built for Scale
                         </p>
+                        <p className='text-xl text-gray-200 mb-8 leading-relaxed max-w-lg'>
+                            {" "}
+                            sIFa Tech designs and engineers intelligent digital systems that automate workflows, integrate AI, and power modern businesses. From custom web applications to advanced automation and future-ready SaaS, we build solutions that reduce manual work and increase operational leverage.
+                        </p>                       
+
                         <div className='flex flex-col sm:flex-row gap-4 mb-8'>
                             <button 
                                 className='
@@ -49,7 +54,7 @@ function Hero() {
                                 '
                             >
                                 <ArrowRight/>
-                                Start a Project
+                                Book a Consultation
                             </button>
 
                             <button 
@@ -60,7 +65,7 @@ function Hero() {
                                 '
                             >
                                 <Play size={20} className='mr-2 group-hover:scale-110 transition-transform duration-300'/>
-                                Contact Us
+                                View Our Work
                             </button>
                         </div>
 
@@ -97,11 +102,11 @@ function Hero() {
                                             w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center
                                         '
                                     >
-                                        <span className='text-white font-bold'>UI</span>
+                                        <span className='text-white font-bold'>AI</span>
                                     </div>
                                     <div>
-                                        <h3 className='text-white font-semibold'>UI/UX Design</h3>
-                                        <p className='text-gray-300 text-sm'>Beautiful & Intutive interface</p>                                        
+                                        <h3 className='text-white font-semibold'>Custom AI and automation systems</h3>
+                                        {/* <p className='text-gray-300 text-sm'>Beautiful & Intutive interface</p>*/}
                                     </div>
                                     <div className='ml-auto'>
                                         <div className='w-3 h-3 bg-green-400 rounded-full animate-pulse'></div>
@@ -117,8 +122,8 @@ function Hero() {
                                         <span className='text-white font-bold'>DEV</span>
                                     </div>
                                     <div>
-                                        <h3 className='text-white font-semibold'>Development</h3>
-                                        <p className='text-gray-300 text-sm'>Modern web application</p>
+                                        <h3 className='text-white font-semibold'>Full-stack web development and integrations</h3>
+                                        {/* <p className='text-gray-300 text-sm'>Modern web application</p> */}
                                     </div>
                                     <div className='ml-auto'>
                                         <div className='w-3 h-3 bg-green-400 rounded-full animate-pulse'></div>
@@ -131,11 +136,11 @@ function Hero() {
                                             flex items-center justify-center backdrop-blur-sm
                                         '
                                     >
-                                        <span className='text-white font-bold'>SEO</span>
+                                        <span className='text-white font-bold'>SUP</span>
                                     </div>
                                     <div>
-                                        <h3 className='text-white font-semibold'>Optimization</h3>
-                                        <p className='text-gray-300 text-sm'>Performance & visibility</p>
+                                        <h3 className='text-white font-semibold'>Scalable infrastructure and long-term support</h3>
+                                        {/* <p className='text-gray-300 text-sm'>Performance & visibility</p> */}
                                     </div>
                                     <div className='ml-auto'>
                                         <div className='w-3 h-3 bg-green-400 rounded-full animate-pulse'></div>
