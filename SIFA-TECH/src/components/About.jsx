@@ -3,9 +3,9 @@ import React from 'react'
 
 const stats = [
     {number: "123+", label: "Projects Delivered", icon: TrendingUp},
-    {number: "123+", label: "Happy Clients", icon: Users},
-    {number: "123+", label: "Years Experience", icon: Award},
-    {number: "123", label: "Success Rate", icon: Shield},
+    {number: "123+", label: "Automation Hours Saved", icon: Users},
+    {number: "Modern AI and Web Stack", label: "Technologies Used", icon: Award},
+    // {number: "123", label: "Success Rate", icon: Shield},
 ]
 
 const values = [
@@ -65,7 +65,8 @@ function About() {
                             </span>
                         </h2>
                         <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-                            Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
+                            sIFa Tech is a technology solutions studio focused on building intelligent, automated, and scalable digital products. We work with startups, creators, and growing businesses to replace manual processes with systems that think, adapt, and scale.
+                            Our approach blends software engineering, AI integration, and real-world business understanding. We do not sell templates or shortcuts. We design systems that solve actual problems and continue delivering value as your business grows. 
                         </p>
                     </div>
 
