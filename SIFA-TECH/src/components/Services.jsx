@@ -4,87 +4,185 @@ import React from 'react'
 const services = [
     {
         icon: Palette,
-        title: "Brand & Design",
+        title: "Custom AI Chatbot Integration",
         description: 
-            "Complete visual identity and brand strategy that resonates with your audience.",
+            "Design and deploy intelligent chatbots for websites, internal tools, and customer support using modern AI models and APIs.",
         features: [
-            "Logo & Identity",
-            "Brand Guidelines",
-            "Visual Systems",
-            "Printed Design",
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
         ],
         color: "from-purple-500 to-pink-500",
         bgColor: "from-purple-50 to-pink-50",
     },
     {
         icon: Code,
-        title: "Web Development",
+        title: "Full Custom Web Applications",
         description: 
-            "Modern, responsive websites built with cutting-edge techologies.",
+            "End-to-end development of scalable web applications tailored to your business logic, workflows, and growth plans.",
         features: [
-            "React & Next.js",
-            "E-commerce",
-            "CMS Integration",
-            "Performance Optimization",
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
         ],
         color: "from-blue-500 to-cyan-500",
         bgColor: "from-blue-50 to-cyan-50",
     },
-    // {
-    //     icon: Smartphone,
-    //     title: "Mobile Apps",
-    //     description: 
-    //         "Native and cross-platform mobile applications for iOS and Android.",
-    //     features: [
-    //         "iOS Development",
-    //         "Android Development",
-    //         "React Native",
-    //         "App Store Optimization",
-    //     ],
-    //     color: "from-green-500 to-teal-500",
-    //     bgColor: "from-green-50 to-teal-50",
-    // },
+    {
+        icon: Smartphone,
+        title: "Web Development",
+        description: 
+            "High-performance, secure, and responsive websites built with modern standards.",
+        features: [
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
+        ],
+        color: "from-green-500 to-teal-500",
+        bgColor: "from-green-50 to-teal-50",
+    },
     {
         icon: Megaphone,
-        title: "Digital Marketing",
+        title: "React.js, JavaScript, Tailwind",
         description: 
-            "Strategic marketing campaigns that drive engagement and conversions",
+            "Frontend engineering using clean, maintainable, and scalable UI architectures.",
         features: [
-            "Social Media Strategy",
-            "Content Marketing",
-            "Email Campaigns",
-            "Influencer Marketing",
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
         ],
         color: "from-yellow-500 to-orange-500",
         bgColor: "from-yellow-50 to-orange-50",
     },
     {
         icon: BarChart,
-        title: "Analytics & Insights",
+        title: "CMS and Platform Development",
         description: 
-            "Data-driven insights to optimize performance and maximize ROI.",
+            "WordPress, Shopify, Squarespace, Wix, GoDaddy, and Hostinger solutions customized beyond default templates.",
         features: [
-            "Performance Tracking",
-            "User Behavior Analysis",
-            "Conversion Optimization",
-            "Custom Dashboards",
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
         ],
         color: "from-red-500 to-pink-500",
         bgColor: "from-red-50 to-pink-50",
     },
     {
         icon: Globe,
-        title: "Digital Strategy",
+        title: "Portfolio Website Creation",
         description: 
-            "Comprehensive digital transformation and strategic consulting services.",
+            "Personal and business portfolio websites designed for credibility, speed, and conversion.",
         features: [
-            "Market Research",
-            "Comprehensive Analysis",
-            "Digital Roadmap",
-            "Technology Consulting",
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
         ],
         color: "from-indigo-500 to-purple-500",
         bgColor: "from-indigo-50 to-purple-50",
+    },
+    {
+        icon: Palette,
+        title: "Dropshipping Websites",
+        description: 
+            "Optimized e-commerce stores with automation-ready infrastructure.",
+        features: [
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
+        ],
+        color: "from-purple-500 to-pink-500",
+        bgColor: "from-purple-50 to-pink-50",
+    },
+    {
+        icon: Code,
+        title: "Domain and Hosting Management",
+        description: 
+            "Setup, migration, optimization, and long-term management of domains and hosting.",
+        features: [
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
+        ],
+        color: "from-blue-500 to-cyan-500",
+        bgColor: "from-blue-50 to-cyan-50",
+    },
+    {
+        icon: Smartphone,
+        title: "SEO Optimization",
+        description: 
+            "Technical SEO, performance optimization, and search visibility improvements.",
+        features: [
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
+        ],
+        color: "from-green-500 to-teal-500",
+        bgColor: "from-green-50 to-teal-50",
+    },
+    {
+        icon: Megaphone,
+        title: "Technical Writing",
+        description: 
+            "Clear, structured documentation, system guides, and technical content.",
+        features: [
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
+        ],
+        color: "from-yellow-500 to-orange-500",
+        bgColor: "from-yellow-50 to-orange-50",
+    },
+    {
+        icon: BarChart,
+        title: "API Integrations",
+        description: 
+            "Secure and reliable integrations between third-party services, platforms, and custom systems.",
+        features: [
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
+        ],
+        color: "from-red-500 to-pink-500",
+        bgColor: "from-red-50 to-pink-50",
+    },
+    {
+        icon: Globe,
+        title: "Automation Workflows",
+        description: 
+            "Design and implementation of automated workflows to eliminate repetitive tasks.",
+        features: [
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
+        ],
+        color: "from-indigo-500 to-purple-500",
+        bgColor: "from-indigo-50 to-purple-50",
+    },
+    {
+        icon: Palette,
+        title: "Future SaaS Products",
+        description: 
+            "Design, development, and launch support for scalable SaaS platforms.",
+        features: [
+            "feature 1",
+            "feature 2",
+            "feature 3",
+            "feature 4",
+        ],
+        color: "from-purple-500 to-pink-500",
+        bgColor: "from-purple-50 to-pink-50",
     },
 ]
 
@@ -128,7 +226,7 @@ function Services() {
                     </h2>
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
                         {" "}
-                        Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
+                        We offer end-to-end development, automation, and AI services designed to turn ideas into production-ready systems. Whether you need a single integration or a full platform, we handle strategy, development, deployment, and optimization. 
                     </p>
                 </div>
 
