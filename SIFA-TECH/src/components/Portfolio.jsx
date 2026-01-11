@@ -15,7 +15,7 @@ const projects = [
         title: "Project Name",
         category: "E-commerce Platform",
         description:
-            "a detailed description of the functionality",
+            "Short one-line problem statement. Outcome or result achieved",
         image: 
             "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=800",
         tags: ["React", "Node.js", "AR Technology"],
@@ -127,7 +127,7 @@ function Portfolio() {
                     </h2>
 
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-                        Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
+                        A selection of projects showcasing our expertise in AI integration, automation, and full-stack development. Each project is built with scalability, performance, and long-term maintainability in mind. 
                     </p>
                 </div>
 
@@ -253,7 +253,7 @@ function Portfolio() {
                                             hover:text-pink-600 transition-all duration-300
                                         '
                                     >
-                                        View Project 
+                                        Request Full Case Studies 
                                         <ArrowRight 
                                             className='
                                                 ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300
