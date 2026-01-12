@@ -180,7 +180,7 @@ function Team() {
                         </span>
                     </h2>
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-                        Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
+                        sIFa Tech is driven by engineers and builders who focus on clarity, performance, and long-term system thinking. We prioritize clean architecture, maintainable code, and solutions that scale with real business needs.
                     </p>                    
                 </div>
 
