@@ -3,20 +3,30 @@ import React from 'react'
 
 const company = [
     "About Us",
-    "Our Team",
-    "Careers",
-    "Case Studies",
-    "Blog",
-    "Press Kit",
+    "Services",
+    "Portfolio",
+    "Contact",
+    // "Our Team",
+    // "Careers",
+    // "Case Studies",
+    // "Blog",
+    // "Press Kit",
 ]
 
 const services = [
-    "Brand & Design",
+    "Custom AI Chatbot Integration",
+    "Full Custom Web Applications",
     "Web Development",
-    "Mobile Apps",
-    "Digital Marketing",
-    "Analytics & Insights",
-    "Digital Strategy",
+    "React.js, JavaScript, Tailwind",
+    "CMS and Platform Development",
+    "Portfolio Website Creation",
+    "Dropshipping Websites",
+    "Domain and Hosting Management",
+    "SEO Optimization",
+    "Technical Writing",
+    "API Integrations",
+    "Automation Workflows",
+    "Future SaaS Products",
 ]
 
 function Footer() {
@@ -70,7 +80,7 @@ function Footer() {
                         </div>
 
                         <p className='text-gray-300 mb-6 leading-relaxed'>
-                            Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
+                            AI, Automation, and Web Engineering Solutions
                         </p>
                         <div className='flex space-x-4'>
                             <a
@@ -226,7 +236,7 @@ function Footer() {
                 >
                     <div className='text-gray-300 text-sm mb-4 md:mb-0'>
                         <p>
-                            2025 sIFa Tech. All right reserved. | Privacy Policy | Terms of Services | Cookie Policy
+                            © sIFa Tech. All rights reserved.
                         </p>
                     </div>
                     <button 
