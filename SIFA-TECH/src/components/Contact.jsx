@@ -77,17 +77,17 @@ function Contact() {
                     <span className='text-purple-600 font-semibold'>Get in Touch</span>
                 </div>
                 <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
-                    Let's Start
+                    Let’s Build 
                     <span 
                         className='
                             block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600
                         '
                     >
-                        Something Great
+                        Something Intelligent
                     </span>
                 </h2>
                 <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-                    Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
+                    Have an idea, a problem to solve, or a system to automate? Get in touch and let’s discuss how sIFa Tech can design and build a solution tailored to your goals.
                 </p>                    
             </div>
 
