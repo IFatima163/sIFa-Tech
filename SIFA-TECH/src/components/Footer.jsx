@@ -37,7 +37,7 @@ function Footer() {
     return (
         <footer
             className='
-                bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 text-white overflow-hidden
+                bg-slate-900 text-white overflow-hidden
             '
         >
             {/* Background Elements */}

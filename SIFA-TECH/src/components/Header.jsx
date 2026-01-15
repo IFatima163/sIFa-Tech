@@ -28,7 +28,7 @@ function Header() {
         <header 
             className={`
                 fixed top-0 left-0 right-0 z-50 transition-all duration ${isScrolled 
-                ? "bg-white/95 backdrop-blur-lg shadow-xl border-b border-purple-100"
+                ? "bg-slate-900 backdrop-blur-lg shadow-xl border-b border-slate-900"
                 : "bg-transparent"
             }`}
         >
@@ -41,11 +41,11 @@ function Header() {
                                     w-8 h-8 transition-all duration-300 ${isScrolled ? "text-purple-600" : "text-white" 
                                 }`}
                             />
-                            {/* <div 
+                            <div 
                                 className='
                                     absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full animation-pulse
                                 '
-                            ></div> */}
+                            ></div>
                         </div>
                         <h1 
                             className={`
@@ -97,7 +97,7 @@ function Header() {
                 {isMobileMenuOpen && (
                     <div 
                         className='
-                            md:hidden bg-white/95 backdrop-blur-lg shadow-2xl rounded-2xl mt-2 py-6 border border-purple-100
+                            md:hidden bg-slate-900 backdrop-blur-lg shadow-2xl rounded-2xl mt-2 py-6 border border-slate-900
                         '
                     >
                         {menu.map((item) => {
