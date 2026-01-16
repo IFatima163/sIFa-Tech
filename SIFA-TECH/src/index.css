@@ -3,5 +3,7 @@
 @import "tailwindcss";
 
 body {
-    font-family: "poppins", sans-serif;
+    font-family: Inter, system-ui, sans-serif;
+    background-color: #0F172A;
+    color: #E5E7EB;
 }

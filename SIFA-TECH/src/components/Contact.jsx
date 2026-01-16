@@ -55,8 +55,7 @@ function Contact() {
         {/* Background Element */}
         <div 
             className='
-                absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-r from-purple-100 to-pink-100 
-                rounded-full filter blur-3xl opacity-50 -translate-y-48
+                absolute top-0 left-1/4 w-96 h-96 rounded-full filter blur-3xl opacity-50 -translate-y-48
             '
         ></div>
         <div 

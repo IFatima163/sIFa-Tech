@@ -144,7 +144,7 @@ const teamMembers = [
 
 function Team() {
     return (
-        <section id='team' className='py-20 bg-white relative overflow-hidden'>
+        <section id='team' className='relative overflow-hidden'>
             {/* Background Element */}
             <div 
                 className='

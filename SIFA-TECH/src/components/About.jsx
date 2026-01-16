@@ -42,7 +42,7 @@ const values = [
 function About() {
     return (
         <section id='about'>
-            <div className='py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden'>
+            <div className='relative overflow-hidden'>
                 {/* Background pattern */}
                 <div className='absolute inset-0 opacity-5'>
                     <div 

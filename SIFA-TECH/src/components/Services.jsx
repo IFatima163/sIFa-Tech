@@ -203,7 +203,7 @@ function Services() {
                 '
             ></div>
             
-            <div className='max-w-7xl mx-auto py-4 sm:px-6 lg:px-8 relative z-10'>
+            <div className='sm:px-6 lg:px-8 relative z-10'>
                 <div className='text-center mb-16'>
                     <div 
                         className='

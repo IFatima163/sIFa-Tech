@@ -96,7 +96,7 @@ function Portfolio() {
     return (
         <section 
             id='portfolio'
-            className='py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden'
+            className='py-20 relative overflow-hidden'
         >
             {/* Background Elements */}
             <div 
