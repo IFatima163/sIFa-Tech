@@ -28,14 +28,14 @@ function Header() {
         <header 
             className={`
                 fixed top-0 left-0 right-0 z-50 transition-all duration ${isScrolled 
-                ? "bg-slate-900 backdrop-blur-lg shadow-xl border-b border-slate-900"
+                ? "bg-[#0F172A] border-b border-[#334155] backdrop-blur-lg shadow-xl"
                 : "bg-transparent"
             }`}
         >
             <div className='sm:px-6 lg:px-8'>
                 <div className='flex justify-between items-center py-4'>
                     <div className='flex items-center space-x-2'>                
-                        <div className='relative'>
+                        {/* <div className='relative'>
                             <Sparkle 
                                 className={`
                                     w-8 h-8 transition-all duration-300 ${isScrolled ? "text-purple-600" : "text-white" 
@@ -43,14 +43,14 @@ function Header() {
                             />
                             <div 
                                 className='
-                                    absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full animation-pulse
+                                    absolute -top-1 -right-1 w-3 h-3 bg-[#E5E7EB] rounded-full animation-pulse
                                 '
                             ></div>
-                        </div>
+                        </div> */}
                         <h1 
                             className={`
-                                text-2xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text 
-                                transition-all duration-300 ${isScrolled ? "text-purple-600" : "text-white" 
+                                text-xl font-semibold bg-white bg-clip-text 
+                                transition-all duration-300 ${isScrolled ? "text-[#E5E7EB]" : "text-white" 
                             }`}
                         >
                             sIFa Tech
@@ -58,26 +58,23 @@ function Header() {
                     </div>
                     
                     {/* Desktop Navigation */}
-                    <nav className='hidden md:flex space-x-8'>
+                    <nav className='hidden md:flex space-x-8 '>
                         {menu.map((item) => {
                             return(
                                 <button
                                     onClick={() => scrollToSection(item)}
-                                    className={`
+                                    className='
                                         capitalize font-medium transition-all duration-300 hover:scale-105 
-                                        relative group ${isScrolled 
-                                        ? "text-gray-700 hover:text-purple-600" 
-                                        : "text-white hover:text-purple-300" 
-                                    }`}
+                                        relative group text-[#94A3B8] hover:text-[#E5E7EB]'
                                 >
                                     {item}
                                     {/* Hover effect */}
-                                    <span 
+                                    {/* <span 
                                         className='
                                             absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 
                                             transition-all duration-300 group-hover:w-full
                                             '
-                                        ></span>
+                                        ></span> */}
                                 </button>
                             )
                         })}
