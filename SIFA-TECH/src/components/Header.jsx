@@ -35,22 +35,23 @@ function Header() {
             <div className='sm:px-6 lg:px-8'>
                 <div className='flex justify-between items-center py-4'>
                     <div className='flex items-center space-x-2'>                
-                        {/* <div className='relative'>
+                        <div className='relative'>
                             <Sparkle 
                                 className={`
-                                    w-8 h-8 transition-all duration-300 ${isScrolled ? "text-purple-600" : "text-white" 
+                                    w-8 h-8 transition-all duration-300 ${isScrolled ? "text-[#22D3EE]" : "text-white" 
                                 }`}
                             />
                             <div 
-                                className='
-                                    absolute -top-1 -right-1 w-3 h-3 bg-[#E5E7EB] rounded-full animation-pulse
-                                '
+                                className={`
+                                    absolute -top-1 -right-1 w-3 h-3 rounded-full animation-pulse
+                                     ${isScrolled ? "bg-[#22D3EE]" : "bg-white" }
+                                `}
                             ></div>
-                        </div> */}
+                        </div>
                         <h1 
                             className={`
                                 text-xl font-semibold bg-white bg-clip-text 
-                                transition-all duration-300 ${isScrolled ? "text-[#E5E7EB]" : "text-white" 
+                                transition-all duration-300 ${isScrolled ? "text-[#22D3EE]" : "text-white" 
                             }`}
                         >
                             sIFa Tech
@@ -69,12 +70,12 @@ function Header() {
                                 >
                                     {item}
                                     {/* Hover effect */}
-                                    {/* <span 
+                                    <span 
                                         className='
-                                            absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 
+                                            absolute -bottom-1 left-0 w-0 h-0.5 bg-[#22D3EE]
                                             transition-all duration-300 group-hover:w-full
                                             '
-                                        ></span> */}
+                                        ></span>
                                 </button>
                             )
                         })}
