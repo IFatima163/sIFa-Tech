@@ -13,28 +13,28 @@ const values = [
         icon: Target,
         title: "Strategic Vision",
         description: 
-            "Loren ipsum Loren ipsum Loren ipsum Loren ipsum ",
+            "We align every design decision with your business objectives and user needs.",
         color: "from-purple-500 to-pink-500"
     },
     {
         icon: Users,
         title: "Collaborative Spirit",
         description: 
-            "Loren ipsum Loren ipsum Loren ipsum Loren ipsum ",
+            "Your success is our success. We work as an extension of your team.",
         color: "from-blue-500 to-cyan-500"
     },
     {
         icon: Zap,
         title: "Innovation Focus",
         description: 
-            "Loren ipsum Loren ipsum Loren ipsum Loren ipsum ",
+            "We embrace cutting-edge technologies to deliver future-ready solutions.",
         color: "from-green-500 to-teal-500"
     },
     {
         icon: Award,
         title: "Quality Excellence",
         description: 
-            "Loren ipsum Loren ipsum Loren ipsum Loren ipsum ",
+            "Every pixel, every line of code is crafted with meticulous attention to detail.",
         color: "from-yellow-500 to-orange-500"
     },
 ]
@@ -42,7 +42,7 @@ const values = [
 function About() {
     return (
         <section id='about'>
-            <div className='relative overflow-hidden'>
+            <div className='py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden'>
                 {/* Background pattern */}
                 <div className='absolute inset-0 opacity-5'>
                     <div 
