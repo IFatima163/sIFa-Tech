@@ -50,12 +50,13 @@ function Contact() {
         setFormData({ ...formData, [e.target.name]: e.target.value })
     }
     
-  return (
+ return (
     <section id='contact'>
         {/* Background Element */}
         <div 
             className='
-                absolute top-0 left-1/4 w-96 h-96 rounded-full filter blur-3xl opacity-50 -translate-y-48
+                absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-r from-purple-100 to-pink-100 
+                rounded-full filter blur-3xl opacity-50 -translate-y-48
             '
         ></div>
         <div 
@@ -76,7 +77,7 @@ function Contact() {
                     <span className='text-purple-600 font-semibold'>Get in Touch</span>
                 </div>
                 <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
-                    Let’s Build 
+                    Let's Build
                     <span 
                         className='
                             block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600
