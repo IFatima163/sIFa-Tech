@@ -29,6 +29,7 @@ const services = [
     "Future SaaS Products",
 ]
 
+
 function Footer() {
     const scrollToTop = () => {
         window.scrollTo({top: 0, behavior: "smooth"})
@@ -37,7 +38,7 @@ function Footer() {
     return (
         <footer
             className='
-                bg-slate-900 overflow-hidden
+                bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 text-white overflow-hidden
             '
         >
             {/* Background Elements */}
@@ -192,8 +193,8 @@ function Footer() {
                                     <Mail size={14}/>
                                 </div>
                                 <div>
-                                    <p className='text-white font-medium'>hello@sifatech.com</p>
-                                    <p className='text-gray-300 text-sm'>support@sifatech.com</p>
+                                    <p className='text-white font-medium'>hello@nexus.com</p>
+                                    <p className='text-gray-300 text-sm'>support@nexus.com</p>
                                 </div>
                             </div>
                             <div className='flex items-start space-x-3'>
@@ -206,8 +207,8 @@ function Footer() {
                                     <Phone size={14}/>
                                 </div>
                                 <div>
-                                    <p className='text-white font-medium'>+60 10 202 6820</p>
-                                    <p className='text-gray-300 text-sm'>Mon-Fri 9AM-6PM MST</p>
+                                    <p className='text-white font-medium'>+1(555)123-4567</p>
+                                    <p className='text-gray-300 text-sm'>Mon-Fri 9AM-6PM EST</p>
                                 </div>
                             </div>
                             <div className='flex items-start space-x-3'>
@@ -219,10 +220,10 @@ function Footer() {
                                 >
                                     <MapPin size={14}/>
                                 </div>
-                                {/* <div>
+                                /*<div>
                                     <p className='text-white font-medium'>123 Innovation Street</p>
                                     <p className='text-gray-300 text-sm'>San Fransisco, CA 94105</p>
-                                </div> */}
+                                </div>*/
                             </div>
                         </div>
                     </div>
