@@ -28,30 +28,29 @@ function Header() {
         <header 
             className={`
                 fixed top-0 left-0 right-0 z-50 transition-all duration ${isScrolled 
-                ? "bg-[#0F172A] border-b border-[#334155] backdrop-blur-lg shadow-xl"
+                ? "bg-white/95 backdrop-blur-lg shadow-xl border-b border-purple-100"
                 : "bg-transparent"
             }`}
         >
-            <div className='sm:px-6 lg:px-8'>
+            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex justify-between items-center py-4'>
                     <div className='flex items-center space-x-2'>                
                         <div className='relative'>
                             <Sparkle 
                                 className={`
-                                    w-8 h-8 transition-all duration-300 ${isScrolled ? "text-[#22D3EE]" : "text-white" 
+                                    w-8 h-8 transition-all duration-300 ${isScrolled ? "text-purple-600" : "text-white" 
                                 }`}
                             />
-                            <div 
-                                className={`
-                                    absolute -top-1 -right-1 w-3 h-3 rounded-full animation-pulse
-                                     ${isScrolled ? "bg-[#22D3EE]" : "bg-white" }
-                                `}
-                            ></div>
+                            {/* <div 
+                                className='
+                                    absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full animation-pulse
+                                '
+                            ></div> */}
                         </div>
                         <h1 
                             className={`
-                                text-xl font-semibold bg-white bg-clip-text 
-                                transition-all duration-300 ${isScrolled ? "text-[#22D3EE]" : "text-white" 
+                                text-2xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text 
+                                transition-all duration-300 ${isScrolled ? "text-purple-600" : "text-white" 
                             }`}
                         >
                             sIFa Tech
@@ -59,20 +58,23 @@ function Header() {
                     </div>
                     
                     {/* Desktop Navigation */}
-                    <nav className='hidden md:flex space-x-8 '>
+                    <nav className='hidden md:flex space-x-8'>
                         {menu.map((item) => {
                             return(
                                 <button
                                     onClick={() => scrollToSection(item)}
-                                    className='
+                                    className={`
                                         capitalize font-medium transition-all duration-300 hover:scale-105 
-                                        relative group text-[#94A3B8] hover:text-[#E5E7EB]'
+                                        relative group ${isScrolled 
+                                        ? "text-gray-700 hover:text-purple-600" 
+                                        : "text-white hover:text-purple-300" 
+                                    }`}
                                 >
                                     {item}
                                     {/* Hover effect */}
                                     <span 
                                         className='
-                                            absolute -bottom-1 left-0 w-0 h-0.5 bg-[#22D3EE]
+                                            absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 
                                             transition-all duration-300 group-hover:w-full
                                             '
                                         ></span>
@@ -95,7 +97,7 @@ function Header() {
                 {isMobileMenuOpen && (
                     <div 
                         className='
-                            md:hidden bg-slate-900 backdrop-blur-lg shadow-2xl rounded-2xl mt-2 py-6 border border-slate-900
+                            md:hidden bg-white/95 backdrop-blur-lg shadow-2xl rounded-2xl mt-2 py-6 border border-purple-100
                         '
                     >
                         {menu.map((item) => {
