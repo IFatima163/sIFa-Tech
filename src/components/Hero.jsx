@@ -2,21 +2,15 @@ import { ArrowRight, Play } from 'lucide-react'
 import React from 'react'
 
 function Hero() {
-    return (        
+    return (
         <section
-            id='home'
-            className='
-                min-h-screen flex items-center relative overflow-hidden bg-gradient-to-b from-[#0F172A] to-[#020617]
-                '
-        >
-        {/* <section
             id='home'
             className='
                 min-h-screen flex items-center relative overflow-hidden 
                 bg-[url(https://cdn.pixabay.com/photo/2017/08/02/20/43/laptop-2573318_1280.jpg)] 
                 bg-no-repeat bg-cover
                 '
-        > */}
+        >
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10'>
                 <div className='lg:grid lg:grid-cols-2 lg:gap-35 items-center'>
                     <div className='mb-12 lg:mb-0'>
@@ -34,26 +28,26 @@ function Hero() {
                             Create{" "}
                             <span 
                                 className='
-                                    block text-transparent bg-clip-text bg-[#22D3EE]
+                                    block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400
                                 '
                             >
                                 Amazing
                             </span>
                             Experience
                         </h1>
-                        <p className='text-xl text-[#94A3B8] mb-8 leading-relaxed max-w-lg'>
+                        <p className='text-xl text-gray-200 mb-8 leading-relaxed max-w-lg'>
                             {" "}
                             AI-Driven Web, Automation, and SaaS Solutions Built for Scale
                         </p>
-                        <p className='text-lg text-[#94A3B8] mb-8 leading-relaxed max-w-lg'>
+                        <p className='text-xl text-gray-200 mb-8 leading-relaxed max-w-lg'>
                             {" "}
                             sIFa Tech designs and engineers intelligent digital systems that automate workflows, integrate AI, and power modern businesses. From custom web applications to advanced automation and future-ready SaaS, we build solutions that reduce manual work and increase operational leverage.
-                        </p>                       
-
+                        </p>
                         <div className='flex flex-col sm:flex-row gap-4 mb-8'>
                             <button 
                                 className='
-                                    mt-8 bg-[#22D3EE] text-[#0F172A] px-8 py-4 group rounded-2xl font-semibold 
+                                    group bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 
+                                    hover:to-pink-700 text-white px-8 py-4 rounded-2xl font-semibold 
                                     transition-all duration-300 flex items-center justify-center shadow-2xl 
                                     hover:shadow-purple-500/25 hover:scale-105
                                 '
@@ -64,9 +58,9 @@ function Hero() {
 
                             <button 
                                 className='
-                                    group border-white/30 text-[#22D3EE] hover:bg-white hover:text-[#22D3EE] px-8 
-                                    py-4 rounded-2xl font-medium transition-all duration-300 flex items-center justify-center 
-                                    shadow-2xl hover:shadow-[#22D3EE] hover:scale-105 ml-6 mt-8
+                                    group border-white/30 text-white hover:bg-white hover:text-purple-900 px-8 
+                                    py-4 rounded-2xl font-semibold transition-all duration-300 flex items-center justify-center 
+                                    shadow-2xl hover:shadow-purple-500/25 hover:scale-105
                                 '
                             >
                                 <Play size={20} className='mr-2 group-hover:scale-110 transition-transform duration-300'/>
@@ -111,7 +105,7 @@ function Hero() {
                                     </div>
                                     <div>
                                         <h3 className='text-white font-semibold'>Custom AI and automation systems</h3>
-                                        {/* <p className='text-gray-300 text-sm'>Beautiful & Intutive interface</p>*/}
+                                        {/* <p className='text-gray-300 text-sm'>Beautiful & Intutive interface</p>                                         */}
                                     </div>
                                     <div className='ml-auto'>
                                         <div className='w-3 h-3 bg-green-400 rounded-full animate-pulse'></div>
