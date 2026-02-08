@@ -12,10 +12,10 @@ const filters = [
 const projects = [
     {
         id: 1,
-        title: "Project Name",
+        title: "Luxe Fashion Store",
         category: "E-commerce Platform",
         description:
-            "Short one-line problem statement. Outcome or result achieved",
+            "Premium fashion e-commerce with AR try-on features and personalized recommendations.",
         image: 
             "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=800",
         tags: ["React", "Node.js", "AR Technology"],
@@ -24,10 +24,10 @@ const projects = [
     },
     // {
     //     id: 2,
-    //     title: "Project Name",
+    //     title: "FinTech Dashboard",
     //     category: "Web Application",
     //     description:
-    //         "a detailed description of the functionality",
+    //         "Real-time financial analytics dashboard with advanced data visualization.",
     //     image: 
     //         "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
     //     tags: ["Vue.js", "D3.js", "WebSocket"],
@@ -36,10 +36,10 @@ const projects = [
     // },
     // {
     //     id: 3,
-    //     title: "Project Name",
+    //     title: "Wellness Mobile App",
     //     category: "Mobile Development",
     //     description:
-    //         "a detailed description of the functionality",
+    //         "Comprehensive wellness app with meditation, fitness tracking, and nutrition planning.",
     //     image: 
     //         "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg",
     //     tags: ["React Native", "Health Kit", "AI"],
@@ -48,10 +48,10 @@ const projects = [
     // },
     // {
     //     id: 4,
-    //     title: "Project Name",
+    //     title: "GreenTech Branding",
     //     category: "Brand Identity",
     //     description:
-    //         "a detailed description of the functionality",
+    //         "Complete rebrand for sustainable technology company including logo and guidlines.",
     //     image: 
     //         "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
     //     tags: ["Brand Strategy", "Logo Design", "Guidlines"],
@@ -60,10 +60,10 @@ const projects = [
     // },
     // {
     //     id: 5,
-    //     title: "Project Name",
+    //     title: "Restaurant Booking",
     //     category: "Web Platform",
     //     description:
-    //         "a detailed description of the functionality",
+    //         "Modern restaurant reservation system with real-time availability and reviews.",
     //     image: 
     //         "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800",
     //     tags: ["Next.js", "Stripe", "Google Maps"],
@@ -72,10 +72,10 @@ const projects = [
     // },
     // {
     //     id: 6,
-    //     title: "Project Name",
+    //     title: "Crypto Trading App",
     //     category: "Mobile Application",
     //     description:
-    //         "a detailed description of the functionality",
+    //         "Secure cryptocurrency trading platform with advanced charting and portfolio management.",
     //     image: 
     //         "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800",
     //     tags: ["Flutter", "Blockchain", "Security"],
@@ -96,7 +96,7 @@ function Portfolio() {
     return (
         <section 
             id='portfolio'
-            className='py-20 relative overflow-hidden'
+            className='py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden'
         >
             {/* Background Elements */}
             <div 
@@ -280,7 +280,7 @@ function Portfolio() {
                                 Like What You See?
                             </h3>
                             <p className='text-purple-100 mb-6 max-w-2xl mx-auto'>
-                                Loren ipsum Loren ipsum Loren ipsum Loren ipsum 
+                                Let's create something amazing together. View our complete portfolio or start your project today.
                             </p>
                             <div className='flex flex-col sm:flex-row gap-4 justify-center'>
                                 <button 
