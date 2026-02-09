@@ -19,58 +19,6 @@ const teamMembers = [
         gradient: "from-purple-500 to-pink-500",
         bgGradient: "from-purple-50 to-pink-50" 
     },
-    {
-        name: "Person 1",
-        role: "Role 1",
-        image: 
-            "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
-        bio: "Detailed description of expertise.",
-        specialties: ["Skill 1", "Skill 2", "Skill 3"],
-        social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#",
-            email: "person@email.com"
-        },
-        stats: {projects: "150+", awards: "12", experience: "12 years"},
-        gradient: "from-blue-500 to-cyan-500",
-        bgGradient: "from-blue-50 to-cyan-50" 
-    },
-    {
-        name: "Person 1",
-        role: "Role 1",
-        image: 
-            "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
-        bio: "Detailed description of expertise.",
-        specialties: ["Skill 1", "Skill 2", "Skill 3"],
-        social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#",
-            email: "person@email.com"
-        },
-        stats: {projects: "150+", awards: "12", experience: "12 years"},
-        gradient: "from-green-500 to-teal-500",
-        bgGradient: "from-green-50 to-teal-50" 
-    },
-    {
-        name: "Person 1",
-        role: "Role 1",
-        image: 
-            "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
-        bio: "Detailed description of expertise.",
-        specialties: ["Skill 1", "Skill 2", "Skill 3"],
-        social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#",
-            email: "person@email.com"
-        },
-        stats: {projects: "150+", awards: "12", experience: "12 years"},
-        gradient: "from-orange-500 to-red-500",
-        bgGradient: "from-orange-50 to-red-50" 
-    },
-
     
     // {
     //     name: "Alexandra Chen",
@@ -144,7 +92,7 @@ const teamMembers = [
 
 function Team() {
     return (
-        <section id='team' className='relative overflow-hidden'>
+        <section id='team' className='py-20 bg-white relative overflow-hidden'>
             {/* Background Element */}
             <div 
                 className='
